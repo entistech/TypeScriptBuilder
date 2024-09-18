@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "src\Test\Test.csproj", "{2E383C04-12C6-4E36-A901-723DA97E7CBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntisCore.TypeScriptBuilder", "src\TypeScriptBuilder\EntisCore.TypeScriptBuilder.csproj", "{B5BCA49F-589E-4745-AD91-E152E859BD88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntisCore.TypeScriptBuilder", "src\EntisCore.TypeScriptBuilder\EntisCore.TypeScriptBuilder.csproj", "{B5BCA49F-589E-4745-AD91-E152E859BD88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
