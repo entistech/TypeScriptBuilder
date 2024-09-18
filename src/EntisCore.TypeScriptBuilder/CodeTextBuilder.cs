@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace TypeScriptBuilder
+namespace EntisCore.TypeScriptBuilder
 {
     public class CodeTextBuilder
     {

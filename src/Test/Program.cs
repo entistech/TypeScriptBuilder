@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using TestA;
-using TypeScriptBuilder;
+using EntisCore.TypeScriptBuilder;
 
 namespace Test
 {

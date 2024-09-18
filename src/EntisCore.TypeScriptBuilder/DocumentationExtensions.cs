@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Xml;
 
-namespace TypeScriptBuilder
+namespace EntisCore.TypeScriptBuilder
 {
     /// <summary>
     /// Utility class to provide documentation for various types where available with the assembly

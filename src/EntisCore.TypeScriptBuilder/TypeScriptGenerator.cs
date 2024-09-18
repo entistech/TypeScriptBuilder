@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text.Json;
 
-namespace TypeScriptBuilder
+namespace EntisCore.TypeScriptBuilder
 {
     public class TypeScriptGenerator
     {
