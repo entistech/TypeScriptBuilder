@@ -29,6 +29,8 @@ steps:
   inputs:
     command: 'build'
     arguments: '--configuration $(buildConfiguration) --no-restore'
+    projects: |
+        EntisCore.TypeScriptBuilder
 
 - task: DotNetCoreCLI@2
   displayName: 'dotnet pack'

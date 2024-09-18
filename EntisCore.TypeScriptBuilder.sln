@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "src\Test\Test.csproj", "{2E383C04-12C6-4E36-A901-723DA97E7CBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntisCore.TypeScriptBuilder", "src\EntisCore.TypeScriptBuilder\EntisCore.TypeScriptBuilder.csproj", "{B5BCA49F-589E-4745-AD91-E152E859BD88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E383C04-12C6-4E36-A901-723DA97E7CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E383C04-12C6-4E36-A901-723DA97E7CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E383C04-12C6-4E36-A901-723DA97E7CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E383C04-12C6-4E36-A901-723DA97E7CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BCA49F-589E-4745-AD91-E152E859BD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BCA49F-589E-4745-AD91-E152E859BD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BCA49F-589E-4745-AD91-E152E859BD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BCA49F-589E-4745-AD91-E152E859BD88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF36F312-C032-472D-8E21-B80A13E33543}
+	EndGlobalSection
+EndGlobal
