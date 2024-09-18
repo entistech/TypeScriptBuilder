@@ -20,7 +20,7 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
   inputs:
     command: 'build'
-    arguments: '--configuration $(buildConfiguration) --no-restore'
+    arguments: '--configuration $(buildConfiguration)'
     projects: |
         **/EntisCore.TypeScriptBuilder.csproj
 
