@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace TypeScriptBuilder
 {
@@ -279,12 +279,12 @@ namespace TypeScriptBuilder
             if (info is FieldInfo)
             {
                 FieldInfo field = info as FieldInfo;
-                return JsonConvert.SerializeObject(field.GetRawConstantValue());
+                return JsonSerializer.Serialize(field.GetRawConstantValue());
             }
             else
             {
                 PropertyInfo property = info as PropertyInfo;
-                return JsonConvert.SerializeObject(property.GetRawConstantValue());
+                return JsonSerializer.Serialize(property.GetRawConstantValue());
             }
         }
 
