@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -147,7 +147,7 @@ namespace TypeScriptBuilder
             var
                 ti = type.GetTypeInfo();
 
-            if (ti.GetCustomAttribute<TSExclude>() != null || _exclude.Contains(type))
+            if (ti.GetCustomAttribute<TSExclude>() != null || ti.GetCustomAttribute<ObsoleteAttribute>() != null || _exclude.Contains(type))
                 return;
 
             SetNamespace(type);
@@ -211,7 +211,7 @@ namespace TypeScriptBuilder
         {
             foreach (var f in fields)
             {
-                if (f.GetCustomAttribute<TSExclude>() == null)   // only fields defined in that type
+                if (f.GetCustomAttribute<TSExclude>() == null && f.GetCustomAttribute<ObsoleteAttribute>() == null)   // only fields defined in that type
                 {
                     var fieldType = getType(f);
 
