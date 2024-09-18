@@ -15,14 +15,6 @@ steps:
     version: 8.0.x
     performMultiLevelLookup: true
 
-- task: DotNetCoreCLI@2
-  displayName: 'dotnet restore'
-  inputs:
-    command: 'restore'
-    feedsToUse: 'select'
-    vstsFeed: '/3c5c1764-9633-49c7-8aae-7e8c3bc37469'
-
-
 #build
 - task: DotNetCoreCLI@2
   displayName: 'dotnet build $(buildConfiguration)'
@@ -30,7 +22,7 @@ steps:
     command: 'build'
     arguments: '--configuration $(buildConfiguration) --no-restore'
     projects: |
-        EntisCore.TypeScriptBuilder
+        **/EntisCore.TypeScriptBuilder.csproj
 
 - task: DotNetCoreCLI@2
   displayName: 'dotnet pack'
