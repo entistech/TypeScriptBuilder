@@ -3,7 +3,7 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TargetFramework>net8.0</TargetFramework>
-    <PackageId>TypeScriptBuilder</PackageId>
+    <PackageId>EntisCore.TypeScriptBuilder</PackageId>
     <Company>TypeScriptBuilder</Company>
     <Product>TypeScriptBuilder</Product>
     <Authors>TypeScriptBuilder</Authors>
